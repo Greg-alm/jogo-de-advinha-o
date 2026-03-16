@@ -2,6 +2,7 @@ import random as rd
 
 def advinhacao():
 
+
     print("-------------------------------")
     print("\nBem vindo ao jogo da prestigitação!\n")
     print("-------------------------------")
@@ -56,3 +57,5 @@ def advinhacao():
     #ela vai perder pontos
     #n_secreto = 40-20 =20
     #n_secreto = 40-80 = -40
+if(__name__=="__main__"):
+    advinhacao()
